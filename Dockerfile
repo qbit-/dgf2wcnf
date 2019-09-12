@@ -1,0 +1,5 @@
+FROM ubuntu
+COPY ./DGF2WCNF_TW_linux /
+WORKDIR /mnt/
+ENTRYPOINT ["/DGF2WCNF_TW_linux"]
+CMD []
